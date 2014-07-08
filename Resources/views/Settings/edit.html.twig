@@ -1,0 +1,34 @@
+{% extends 'ArnmAraneumBundle::araneum.html.twig' %}
+
+{% form_theme form 'ArnmAraneumBundle:Form:araneum.html.twig' %}
+
+{% block sidebar %}
+	<div class="alert alert-info hint">
+		<span class="label label-info">{{ 'default.label.info'|trans }}</span><br/>
+  		{{ 'artist.settings.info'|trans({}, 'artist')|raw }}
+	</div>
+{% endblock %}
+
+{% block title %}
+	{{ parent() }} | {{ 'artist.settings.title'|trans({}, 'artist') }}
+{% endblock %}
+
+{% block content %}
+	<div class="page-header">
+		<h2>{{ 'artist.settings.title'|trans({}, 'artist') }}</h2>
+	</div>
+	
+	{% include 'ArnmAraneumBundle:Misc:messages.html.twig' %}
+	
+	{% if form %}
+		<form action="{{ path('arnm_artists_settings') }}" method="post" {{ form_enctype(form) }} class="form-horizontal" role="form">
+			{{ form_widget(form) }}
+			<div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+    		    	<input class="btn btn-primary" type="submit" value="{{ 'artist.settings.form.action.update'|trans({}, 'artist') }}"/>
+    		    	<input class="btn" type="reset" value="{{ 'default.form.action.reset'|trans }}"/>
+    		    </div>
+		    </div>
+		</form>
+	{% endif%}
+{% endblock %}

@@ -1,0 +1,33 @@
+arnm_artists:
+    pattern:  /araneum/artists
+    defaults: { _controller: ArnmArtistBundle:ArtistMgr:index }
+arnm_artist_new:
+    pattern:  /araneum/artist/new
+    defaults: { _controller: ArnmArtistBundle:ArtistMgr:new }
+arnm_artist_show:
+    pattern:  /araneum/artist/{id}/show
+    defaults: { _controller: ArnmArtistBundle:ArtistMgr:show }
+    requirements:
+        id:  \d+
+arnm_artist_edit:
+    pattern:  /araneum/artist/{id}/edit
+    defaults: { _controller: ArnmArtistBundle:ArtistMgr:edit }
+    requirements:
+        id:  \d+
+arnm_artist_delete:
+    pattern:  /araneum/artist/{id}/delete
+    defaults: { _controller: ArnmArtistBundle:ArtistMgr:delete }
+    requirements:
+        id:  \d+
+        
+arnm_artists_settings:
+    pattern:  /araneum/artists/settings
+    defaults: { _controller: ArnmArtistBundle:Settings:edit }
+        
+artist:
+    pattern:  /artist/{slug}
+    defaults: { _controller: ArnmArtistBundle:Artist:show }
+    requirements:
+        slug:  .*
+        _method:  GET
+    

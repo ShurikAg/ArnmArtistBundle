@@ -1,0 +1,7 @@
+<p>Our collection of jewelry is the creation of many gifted craftsmen. Their ideas, creativity, and imagination help us realize a truly unique experience for you to explore. In our gallery, we have a wide range of jewelry made by Canadian and European artists employing diverse materials including gold, silver, copper, brass, bronze, glass, and iron. Our designers work in a variety of styles ranging from classic to cutting-edge contemporary.</p>
+<br>
+<div class="artist-details">
+	<h1>{{ artist.title }}</h1>
+	<p>{{ artist.statement|nl2br }}</p>
+	<img src="{{ artist.getWebPath | imagine_filter('artist_image') }}" alt="{{ artist.name }}"/>
+</div>

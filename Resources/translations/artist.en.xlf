@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="artist.en.xlf">
+        <body>
+            <trans-unit id="1">
+                <source>artists.list.title</source>
+                <target>Artists Management</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>artists.list.info</source>
+                <target><![CDATA[<p>This section allows to administer artists.</p>]]></target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>artists.list.table.head.name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>artists.list.table.head.slug</source>
+                <target>Slug</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>artists.list.table.head.active</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>artists.list.action.create_new</source>
+                <target>New Artist</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>artist.form.name.label</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>artist.form.name.help</source>
+                <target>Name of the artist</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>artist.form.title.label</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>artist.form.title.help</source>
+                <target>Title that will be used on the page on this artist.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>artist.form.slug.label</source>
+                <target>Slug</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>artist.form.slug.help</source>
+                <target>Slug is used for URL of the artist's page</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>artist.form.statement.label</source>
+                <target>Statement</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>artist.form.statement.help</source>
+                <target>Artist's statement. Will be shown on the site.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>artist.form.file.label</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>artist.form.file.help</source>
+                <target>Image that will be presented on artist's page as a representative one for this artist.</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>artist.form.active.label</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>artist.form.active.help</source>
+                <target>Whether or not this artist's page will be visible/accessible.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>artist.new.info</source>
+                <target><![CDATA[<p>Fill in the form to create new artist.</p>]]></target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>artist.form.title.new</source>
+                <target>New Artist</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>artist.form.action.create</source>
+                <target>Create</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>artist.message.create.success</source>
+                <target>New artist has been created successfully!</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>artist.message.update.success</source>
+                <target>Artist has been updated successfully!</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>artist.edit.info</source>
+                <target><![CDATA[<p>Any artist's information can be updated at any time.</p>]]></target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>artist.form.title.edit</source>
+                <target>Edit Artist</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>artist.form.action.update</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>artist.message.delete.success</source>
+                <target>Artist has been deleted successfully!</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>artist.settings.info</source>
+                <target><![CDATA[<p>This module suppose to use one of the existing pages to render itself.</p><p>Selected which page should be used and into which area the content should be rendered.</p>]]></target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>artist.settings.title</source>
+                <target>Artist Module Settings</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>artist.settings.form.inherit_page.label</source>
+                <target>Page to Inherit</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>artist.settings.form.inherit_page.help</source>
+                <target>This page is going to be used as a template to render the content in.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>artist.settings.form.replace_area.label</source>
+                <target>Area to Replace</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>artist.settings.form.replace_area.help</source>
+                <target>Selected area will be replaced with the content generated by the artist module.</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>artist.settings.form.action.update</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>artist.settings.message.update.success</source>
+                <target>Settings have been updated successfully!</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
